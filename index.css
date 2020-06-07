@@ -1,0 +1,30 @@
+/* CSS styling for the html file*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-display: none;
+    font-size: large;
+    background-image: linear-gradient(rgb(236, 191, 199), white);
+    padding: 5px 5px;
+}
+#nav{
+    background-color: black;
+    word-spacing: 2px;
+}
+a{
+    text-decoration: none;
+}
+#nav a{
+    color: gainsboro;
+}
+a:hover{background-color: rgb(143, 26, 26);}
+a:visited{color: wheat;}
+#nav h2{
+    display: inline-block;
+}
+#table{
+    word-spacing: 10px;
+}
+@media screen and (min-width:"800px"){
+    #nav{word-spacing: 10px;}
+    body{padding: 5px 5px;}
+}
